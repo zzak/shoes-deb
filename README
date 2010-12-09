@@ -1,0 +1,19 @@
+## build your own
+
+install epm
+
+    sudo synaptic install epm
+
+clone repository
+
+    git clone git://github.com/zacharyscott/shoes-deb.git
+
+build package
+
+    cd shoes-deb
+    epm -f deb shoes
+    
+install the package
+
+    dpkg -i path/to/shoes-*.deb
+    
