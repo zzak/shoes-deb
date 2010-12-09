@@ -1,0 +1,9 @@
+%product Shoes
+%copyright 2010 by Team Shoes
+%vendor Team Shoes
+%description a tiny graphical app kit for ruby 
+%version 3.0
+%readme README
+%license LICENSE
+
+f 755 root sys /usr/bin/shoes shoes.run.sh
